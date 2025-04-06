@@ -1,16 +1,46 @@
-# hand_cricket_game
+# Hand Cricket Game
 
-A new Flutter project.
+A Flutter-based implementation of the popular Hand Cricket game where players can play against the computer.
+
+
+## Features
+
+- Single player mode against Computer
+- Batting and bowling mechanics
+- Score tracking
+- Interactive UI
+- Game statistics
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Clone the repository
+2. Download `flutter 3.29.2`
+2. Run `flutter pub get` to install dependencies
+3. Run `flutter run` to start the app
 
-A few resources to get you started if this is your first Flutter project:
+## Development
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* Clean Architecture implementation:
+  - **Presentation Layer**: Flutter UI widgets, screens, and controllers
+  - **Domain Layer**: Game logic, entities, and Game state management using ScopedModel
+* ScoopedModel Used for state management
+* Flutter default navigation
+* Flow Chart
+ <img src="screenshots/flow.png" width="300" />
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+## Screenshots
+
+<p float="left">
+  <img src="screenshots/instructions.png" width="200" />
+  <img src="screenshots/batting.png" width="200" />
+  <img src="screenshots/six.png" width="200" />
+</p>
+
+<p float="left">
+  <img src="screenshots/won.png" width="200" />
+  <img src="screenshots/lost.png" width="200" />
+  <img src="screenshots/out.png" width="200" />
+</p>
+
