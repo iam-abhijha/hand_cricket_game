@@ -46,17 +46,15 @@ class InstructionScreen extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(width: 8),
-                  Expanded(
-                    child: Row(
-                      children: const [
-                        ButtonWidget(imagePath: 'assets/images/one.png', size: 40),
-                        Padding(
-                          padding: EdgeInsets.symmetric(horizontal: 8),
-                          child: ButtonWidget(imagePath: 'assets/images/three.png', size: 40),
-                        ),
-                        ButtonWidget(imagePath: 'assets/images/six.png', size: 40),
-                      ],
-                    ),
+                  Row(
+                    children: const [
+                      ButtonWidget(imagePath: 'assets/images/one.png', size: 40),
+                      Padding(
+                        padding: EdgeInsets.symmetric(horizontal: 8),
+                        child: ButtonWidget(imagePath: 'assets/images/three.png', size: 40),
+                      ),
+                      ButtonWidget(imagePath: 'assets/images/six.png', size: 40),
+                    ],
                   ),
                 ],
               ),
